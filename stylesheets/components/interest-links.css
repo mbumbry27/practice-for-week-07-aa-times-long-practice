@@ -1,0 +1,110 @@
+/* Your code here */
+.main__interest {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    grid-template-areas: "link1 link2 link3 link4 link5 link6 link7 link8 link9";
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+.interest_col1 {
+    grid-area: link1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interest_col2 {
+    grid-area: link2;
+    border-right: 1px #e2e2e2 solid;
+}
+
+.interest_col3 {
+    grid-area: link3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interest_col4 {
+    grid-area: link4;
+    border-right: 1px #e2e2e2 solid;
+}
+
+.interest_col5 {
+    grid-area: link5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interest_col6 {
+    grid-area: link6;
+    border-right: 1px #e2e2e2 solid;
+}
+
+.interest_col7 {
+    grid-area: link7;
+    border-right: 1px #e2e2e2 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.interest_col8 {
+    grid-area: link8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interest_col9 {
+    grid-area: link9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interests-bar__image {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.interests-bar__headline {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.interests-bar__story {
+    font-size: 12px;
+}
+
+.interests-bar__big-text {
+    font-weight: bold;
+}
+
+.interests-bar__stock-price {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.interests-bar__price {
+    color: green;
+}
+
+.divider {
+    border-top: 1px #e2e2e2 solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+

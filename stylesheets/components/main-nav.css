@@ -1,0 +1,12 @@
+/* Your code here */
+.main__nav {
+    padding-top: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 20%;
+}
+
+.main__nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
